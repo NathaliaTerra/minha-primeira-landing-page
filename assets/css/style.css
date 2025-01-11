@@ -12,16 +12,15 @@ body {
 }
 
 .banner {
+    background-color: black; 
     background-image: 
         linear-gradient(to top, rgba(0, 0, 0, 0.1) 0%, rgba(49, 168, 221, 0.2) 50%,rgba(0, 0, 0, 0.1) 100%), 
-        url(../images/banner.png);
-    height: 605px;
-    background-color: black; 
+        url(../images/banner.png);       
     background-repeat: no-repeat; 
-    background-size: cover;
-    height: 605px;
-    padding-top: 60px;
-    border-bottom: 1px solid #33A8DB80;    
+    background-size: cover;   
+    border-bottom: 1px solid #33A8DB80; 
+    height: 605px; 
+    padding-top: 60px;  
 }
 
 .logo {
@@ -84,8 +83,9 @@ body {
 }
 
 #course-content {
-    width: 792px;
-    height: 500px;
+    width: 80%;
+    max-width: 800px;
+    height: auto;
     text-align: center;
     margin: auto;
     color: #ffffff;
@@ -162,3 +162,73 @@ body {
     justify-content: center;
     flex-wrap: wrap;
 }
+
+#professional-challenges {
+    background-color: black;
+    width: 1440px;
+    height: 650px;
+    top: 1138px;     
+    padding: 40px 20px;   
+}
+
+#professional-challenges img {
+    width: 659px;
+    height: 429px;
+    margin-left: 440px;
+    top: 1658px;
+}
+
+#professional-challenges h2 {
+    width: 746px;
+    height: 76px;
+    top: 1577px;
+    margin-left: 440px;
+    color: #33a8db;
+    font-size: 32px;
+    letter-spacing: 4px;
+    font-weight: 700px;
+    text-align: center;
+    line-height: 37.57px;
+    text-transform: uppercase;    
+}
+
+#professional-challenges p {
+    width: 792px;
+    height: 76px;
+    top: 1557px;
+    margin-left: 440px;
+    color:#FFFFFF;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 18.78px;
+    text-align: center;    
+}
+footer {
+    width: 1440px;
+    height: 170px;
+    top: 2321px; 
+    border-top: 1px solid #33A8DB80 
+}
+
+.dio-logo {
+    width: 310px;
+    height: 44px;
+    margin-top: 59px;
+    margin-left:700px;
+    text-align: center;    
+}
+
+footer p {
+    color: #ffffff; 
+    text-align: center;
+    width: 259px;
+    height: 19px;
+    margin-top: 113;
+    margin-left: 730px;
+    font-size: 16px;
+    line-height: 18.78px;
+    font-weight: 400px;
+}
+
+
+
